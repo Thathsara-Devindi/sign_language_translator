@@ -15,9 +15,6 @@ A Deep Learning-based mobile application designed to bridge the communication ga
 - **Libraries:** OpenCV, NumPy, Scikit-learn
 - **Tools:** VS Code, GitHub Desktop
 
-## 📸 Progress Gallery
-> *Add a screenshot of your `test_hand.py` output here to show the landmark tracking in action!*
-
 ## 🚀 Getting Started
 1. **Clone the repo:**
    ```bash
