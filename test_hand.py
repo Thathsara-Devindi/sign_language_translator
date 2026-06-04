@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-# MediaPipe solutions  access 
+# MediaPipe solutions access 
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 
