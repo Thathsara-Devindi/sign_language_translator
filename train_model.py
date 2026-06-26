@@ -32,7 +32,7 @@ X = np.array(sequences)
 y = to_categorical(labels).astype(int)
 
 # 90% train data , 10% test data )
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_split=0.1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1)
 
 print(f" Data loaded successfully. Train shape: {X_train.shape}")
 
