@@ -38,7 +38,7 @@ python test_hand.py
 
 [x] Real-time Hand Landmark Detection (Prototype)
 
-[ ] Data Collection for Sinhala Gestures
+[x] Data Collection for Sinhala Gestures
 
 [ ] Training the LSTM Model
 
