@@ -60,11 +60,10 @@ while cap.isOpened():
         predicted_action = actions[np.argmax(res)]
         confidence = res[np.argmax(res)]
         
+        
         if confidence > threshold:
-            if len(sentence) > 0:
-                if predicted_action != sentence[-1]:
-                    sentence.append(predicted_action)
-            else:
+            
+            if len(sentence) == 0 or predicted_action != sentence[-1]:
                 sentence.append(predicted_action)
 
         if len(sentence) > 5: 
