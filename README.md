@@ -40,7 +40,7 @@ python test_hand.py
 
 [x] Data Collection for Sinhala Gestures
 
-[ ] Training the LSTM Model
+[x] Training the LSTM Model
 
 [ ] Flutter App Integration
 
